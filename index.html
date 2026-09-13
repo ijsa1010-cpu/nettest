@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="제주시 주민센터 200세 건강강의 수업 챗봇, 200세야를 소개합니다.">
+  <meta name="theme-color" content="#123b3b">
+  <title>200세야 | 제주시 주민센터 건강강의 챗봇</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23123b3b'/%3E%3Cpath d='M18 34h9l4-11 6 21 4-10h7' fill='none' stroke='%23ffb15b' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="200세야 처음으로">
+        <span class="brand-symbol" aria-hidden="true">200</span>
+        <span class="brand-name">200세야<small>건강수업 AI 친구</small></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="주요 메뉴">
+        <a href="#use">사용 모습</a>
+        <a href="#class">함께 배울 내용</a>
+        <a href="#promise">안심 약속</a>
+        <a href="#question">자주 묻는 질문</a>
+      </nav>
+
+      <div class="header-tools">
+        <button class="text-size-button" type="button" aria-pressed="false">
+          <span aria-hidden="true">가</span> 글자 크게
+        </button>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="sr-only">메뉴 열기</span><i></i><i></i><i></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-bg-word" aria-hidden="true">JEJU</div>
+      <div class="hero-inner">
+        <div class="hero-copy appear">
+          <p class="location-label"><span aria-hidden="true">●</span> 제주시 주민센터 · 200세 건강강의</p>
+          <h1>건강수업이 더 쉽고<br>즐거워지는 AI 친구,<br><em>“200세야!”</em></h1>
+          <p class="hero-lead">수업 중 궁금했던 건강 이야기를 편하게 물어보세요.<br>어려운 말은 쉽게, 꼭 알아야 할 내용은 또렷하게 알려드려요.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#hello">200세야 만나보기 <span aria-hidden="true">→</span></a>
+            <a class="sub-link" href="#class">수업 내용 살펴보기</a>
+          </div>
+        </div>
+
+        <div class="chat-demo appear" aria-label="200세야와의 대화 예시">
+          <div class="chat-head">
+            <div class="bot-face" aria-hidden="true"><span>2</span></div>
+            <div><strong>200세야</strong><small><i></i> 수업 도우미</small></div>
+            <span class="chat-class">건강강의</span>
+          </div>
+          <div class="chat-body">
+            <div class="bubble bot">안녕하세요! 오늘 수업에서 어떤 내용이 궁금하셨어요?</div>
+            <div class="bubble user">혈압을 잴 때 왜 잠깐 쉬어야 해?</div>
+            <div class="bubble bot accent">움직인 직후에는 혈압이 평소보다 높게 나올 수 있어요. 의자에 기대어 <b>5분 정도 편하게 쉰 뒤</b> 재면 더 정확합니다.</div>
+          </div>
+          <div class="chat-foot"><span>건강한 궁금증, 무엇이든 물어보세요</span><button type="button" aria-label="대화 예시 전송" disabled>↑</button></div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro section" id="hello">
+      <div class="section-title appear">
+        <p class="kicker">안녕하세요, 200세야예요</p>
+        <h2>배운 내용을 천천히,<br>내 말로 다시 물어보세요.</h2>
+      </div>
+      <div class="intro-grid">
+        <article class="intro-card appear">
+          <span class="number">01</span>
+          <div class="card-icon speech" aria-hidden="true">가</div>
+          <h3>쉬운 말로 설명해요</h3>
+          <p>낯선 건강 용어를 일상에서 쓰는 말과 예시로 바꾸어 설명합니다.</p>
+        </article>
+        <article class="intro-card featured appear">
+          <span class="number">02</span>
+          <div class="card-icon repeat" aria-hidden="true">↻</div>
+          <h3>몇 번이든 물어봐도 좋아요</h3>
+          <p>잘 이해되지 않는 내용은 눈치 보지 말고 다시 물어보세요. 다른 방법으로 차근차근 알려드립니다.</p>
+        </article>
+        <article class="intro-card appear">
+          <span class="number">03</span>
+          <div class="card-icon shield" aria-hidden="true">✓</div>
+          <h3>안전한 다음 행동을 알려요</h3>
+          <p>병원에 가야 할 때와 생활 속에서 실천할 일을 구분해 안내합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="use-scenes section" id="use" aria-labelledby="use-scenes-title">
+      <div class="section-title horizontal appear">
+        <div>
+          <p class="kicker">200세야와 함께하는 모습</p>
+          <h2 id="use-scenes-title">배우고, 물어보고,<br>함께 실천해요.</h2>
+        </div>
+        <p>주민센터 수업에서 200세야를 활용하는 세 가지 장면을 담았습니다.</p>
+      </div>
+      <div class="scene-grid">
+        <figure class="scene-card scene-main appear">
+          <img src="assets/class-with-200seya.png" alt="제주시 주민센터에서 어르신들이 강사와 함께 태블릿의 건강 챗봇을 배우는 모습" width="1536" height="1024" loading="lazy">
+          <figcaption><span>함께 배우기</span><strong>강사의 설명을 들으며<br>200세야를 처음 만나요.</strong></figcaption>
+        </figure>
+        <figure class="scene-card appear">
+          <img src="assets/smartphone-chatbot.png" alt="어르신이 주민센터 수업 중 스마트폰으로 200세야에게 건강 질문을 하는 모습" width="1536" height="1024" loading="lazy">
+          <figcaption><span>편하게 물어보기</span><strong>내 속도에 맞춰<br>천천히 질문해요.</strong></figcaption>
+        </figure>
+        <figure class="scene-card appear">
+          <img src="assets/healthy-habits-group.png" alt="어르신 세 분이 건강 습관을 이야기하며 수업 내용을 함께 정리하는 모습" width="1536" height="1024" loading="lazy">
+          <figcaption><span>같이 실천하기</span><strong>배운 건강 습관을<br>이웃과 나눠요.</strong></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="class-section section" id="class">
+      <div class="section-title horizontal appear">
+        <div>
+          <p class="kicker light">200세 건강강의</p>
+          <h2>수업에서 이런 내용을<br>함께 배워요.</h2>
+        </div>
+        <p>주제를 눌러 200세야가 수업을 어떻게 도와주는지 확인해 보세요.</p>
+      </div>
+
+      <div class="topic-area appear">
+        <div class="topic-tabs" role="tablist" aria-label="건강 수업 주제">
+          <button class="topic-tab active" type="button" role="tab" id="tab-habit" aria-selected="true" aria-controls="panel-habit" data-topic="habit"><span>01</span>매일의 건강 습관</button>
+          <button class="topic-tab" type="button" role="tab" id="tab-check" aria-selected="false" aria-controls="panel-check" data-topic="check" tabindex="-1"><span>02</span>내 몸의 건강 신호</button>
+          <button class="topic-tab" type="button" role="tab" id="tab-hospital" aria-selected="false" aria-controls="panel-hospital" data-topic="hospital" tabindex="-1"><span>03</span>슬기로운 병원 이용</button>
+        </div>
+
+        <div class="topic-panels">
+          <article class="topic-panel" id="panel-habit" role="tabpanel" aria-labelledby="tab-habit" data-panel="habit">
+            <div class="topic-copy">
+              <p class="topic-number">LESSON 01</p>
+              <h3>잘 먹고, 잘 걷고,<br>잘 자는 방법</h3>
+              <p>거창한 계획보다 오늘부터 시작할 수 있는 작은 습관을 함께 찾아봅니다.</p>
+              <ul><li>균형 잡힌 한 끼 구성하기</li><li>나에게 맞는 걷기 습관 만들기</li><li>편안한 잠을 위한 저녁 준비</li></ul>
+            </div>
+            <div class="lesson-board" aria-label="하루 건강 습관 예시">
+              <p>오늘의 작은 실천</p>
+              <div><span>아침</span><strong>물 한 잔으로 시작하기</strong></div>
+              <div><span>낮</span><strong>내 속도로 20분 걷기</strong></div>
+              <div><span>저녁</span><strong>잠들기 전 몸 풀기</strong></div>
+            </div>
+          </article>
+
+          <article class="topic-panel" id="panel-check" role="tabpanel" aria-labelledby="tab-check" data-panel="check" hidden>
+            <div class="topic-copy">
+              <p class="topic-number">LESSON 02</p>
+              <h3>혈압과 혈당,<br>숫자의 뜻 이해하기</h3>
+              <p>검사 결과의 숫자를 무조건 겁내기보다 무엇을 기록하고 상담해야 하는지 알아봅니다.</p>
+              <ul><li>바르게 혈압 재는 순서</li><li>검사 기록을 남기는 방법</li><li>진료 때 물어볼 내용 정리</li></ul>
+            </div>
+            <div class="lesson-board coral" aria-label="건강 신호 확인 순서">
+              <p>기억하기 쉬운 순서</p>
+              <div><span>하나</span><strong>편하게 쉬기</strong></div>
+              <div><span>둘</span><strong>정확하게 재기</strong></div>
+              <div><span>셋</span><strong>날짜와 함께 적기</strong></div>
+            </div>
+          </article>
+
+          <article class="topic-panel" id="panel-hospital" role="tabpanel" aria-labelledby="tab-hospital" data-panel="hospital" hidden>
+            <div class="topic-copy">
+              <p class="topic-number">LESSON 03</p>
+              <h3>진료실에서 궁금한 것을<br>잘 묻는 방법</h3>
+              <p>증상과 복용 중인 약을 정리해 의료진에게 정확하게 전하는 연습을 합니다.</p>
+              <ul><li>증상의 시작과 변화 말하기</li><li>복용 약 목록 준비하기</li><li>꼭 확인할 질문 적어가기</li></ul>
+            </div>
+            <div class="lesson-board yellow" aria-label="진료 전 준비 목록">
+              <p>진료 전 준비하기</p>
+              <div><span>증상</span><strong>언제부터 아팠는지</strong></div>
+              <div><span>약</span><strong>지금 먹는 약이 무엇인지</strong></div>
+              <div><span>질문</span><strong>무엇이 궁금한지</strong></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="promise section" id="promise">
+      <div class="promise-layout">
+        <div class="promise-copy appear">
+          <p class="kicker">200세야의 안심 약속</p>
+          <h2>건강에 관한 답변은<br>조심스럽고 정직하게.</h2>
+          <p>200세야는 건강 정보를 쉽게 이해하도록 돕는 수업 챗봇입니다. 의사의 진단이나 처방을 대신하지 않습니다.</p>
+          <div class="emergency-note"><strong>갑자기 심한 통증이나 호흡 곤란이 있다면</strong><span>챗봇보다 먼저 119 또는 가까운 응급실에 도움을 요청하세요.</span></div>
+        </div>
+        <div class="promise-list appear">
+          <article><span>01</span><div><h3>모르는 내용은 단정하지 않아요.</h3><p>확실하지 않은 정보는 그 한계를 분명하게 알려드립니다.</p></div></article>
+          <article><span>02</span><div><h3>위험 신호를 먼저 살펴요.</h3><p>빠른 진료가 필요한 상황이라면 의료기관 이용을 우선 안내합니다.</p></div></article>
+          <article><span>03</span><div><h3>개인정보를 묻지 않아요.</h3><p>주민등록번호, 계좌번호 같은 민감한 정보는 입력하지 마세요.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="question">
+      <div class="section-title horizontal appear">
+        <div><p class="kicker">자주 묻는 질문</p><h2>궁금한 점을<br>미리 확인해 보세요.</h2></div>
+        <p>수업에서 200세야를 사용할 때 알아두면 좋은 내용입니다.</p>
+      </div>
+      <div class="faq-list appear">
+        <article>
+          <h3><button type="button" aria-expanded="false"><span>스마트폰을 잘 못해도 사용할 수 있나요?</span><i aria-hidden="true"></i></button></h3>
+          <div class="answer" hidden><p>네. 수업에서 강사와 함께 천천히 연습합니다. 평소 말하듯 질문을 입력하면 되어 어렵지 않게 사용할 수 있습니다.</p></div>
+        </article>
+        <article>
+          <h3><button type="button" aria-expanded="false"><span>200세야의 답변으로 약을 바꿔도 되나요?</span><i aria-hidden="true"></i></button></h3>
+          <div class="answer" hidden><p>아니요. 복용 중인 약을 바꾸거나 중단하는 일은 반드시 의사나 약사와 상의해야 합니다.</p></div>
+        </article>
+        <article>
+          <h3><button type="button" aria-expanded="false"><span>어떤 질문을 하면 좋나요?</span><i aria-hidden="true"></i></button></h3>
+          <div class="answer" hidden><p>수업에서 이해하기 어려웠던 용어, 건강한 식사와 운동 습관, 병원에 가기 전 준비할 내용을 편하게 물어보세요.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-symbol" aria-hidden="true">200</div>
+      <p>제주시 주민센터 · 200세 건강강의</p>
+      <h2>건강한 내일을 향해,<br>200세야와 함께 한 걸음.</h2>
+      <a class="primary-button light-button" href="#top">처음으로 돌아가기 <span aria-hidden="true">↑</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="brand-symbol" aria-hidden="true">200</span><span class="brand-name">200세야<small>건강수업 AI 친구</small></span></a>
+    <p>제주시 주민센터 200세 건강강의 수업 챗봇</p>
+    <p>© 2026 200세야</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
